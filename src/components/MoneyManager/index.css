@@ -1,0 +1,204 @@
+/* Write your CSS here */
+/* Write your CSS here */
+.bg-container{
+    min-height: 100vh;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.content-container{
+    display: flex;
+    flex-direction: column;
+    width: 86%;
+    margin: auto;
+}
+.money-manager-container{
+    background-image: url("https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png");
+    background-size: cover;
+    width: 100%;
+    border-radius: 30px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+@media (min-width: 576px){
+    .money-manager-container{
+        align-items: flex-start;
+        padding-left: 80px;
+    }
+}
+.heading{
+    color:  #475569;
+    font-family: "Roboto";
+    font-size: 28px;
+    text-align: center;
+}
+.description{
+    color:  #475569;
+    font-family: "Roboto";
+    font-size: 18px;
+    text-align: center;
+    margin-top: 2px;
+}
+span{
+    color:  #0b69ff;
+}
+.transaction-history-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.add-transction-heading{
+    color:  #475569;
+    font-family: "Roboto";
+    font-size: 24px;
+
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+    /* align-items: center; */
+    border-color: #7e858e;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 12px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+.history-container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    padding: 25px;
+    align-items: center;
+    border-color: #7e858e;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+@media (min-width: 576px){
+    .transaction-history-container{
+        flex-direction: row;
+    }
+    .form-container{
+        width: 42%;
+        margin-right: 30px;
+    }
+    .history-container{
+        width: 55%;
+    }
+}
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self:flex-start;
+}
+@media (max-width: 576px){
+    .form{
+        align-self: center;
+    }
+    .form-container{
+        align-items: center;
+    }
+}
+label{
+    margin-top: 15px;
+    color: #7e858e;
+    margin-bottom: 5px;
+    font-family: "Roboto";
+    font-size: 12px;
+}
+input{
+    border-color: #7e858e;
+    border-width: 1px;
+    border-style: solid;
+    padding: 15px;
+    height: 40px;
+    border-radius: 6px;
+    font-family: "Roboto";
+    font-size: 14px;
+    outline: none;
+    flex-grow: 1;
+}
+option{
+    height: 100px;
+}
+select{
+    border-color: #7e858e;
+    border-width: 1px;
+    border-style: solid;
+    height: 35px;
+    border-radius: 6px;
+    font-family: "Roboto";
+    font-size: 14px;
+    padding-left: 15px;
+    
+}
+
+@media (min-width: 1106px){
+    input{
+        width: 350px;
+        
+    }
+    .form-container{
+        padding-left: 40px;
+    }
+}
+
+.history-items{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    border-color: #7e858e;
+    border-width: 1px;
+    border-style: solid;
+    padding-left: 0;
+    list-style-type: none;
+}
+.history-item{
+    color: #1e293b;
+    font-size: 16px;
+    font-family: "Roboto";
+}
+.history{
+    display: flex;
+    border-color: #7e858e;
+    justify-content: space-around;
+    width: 75%;
+    margin-bottom: 0;
+    align-items: center;
+    padding-left: 0;
+    list-style-type: none;
+}
+.h{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 0;
+    color: #475569;
+    list-style-type: none;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    margin-top: 1px;
+    align-items: center;
+}
+.add-button{
+    height: 35px;
+    width: 70px;
+    font-family: "Roboto";
+    font-size: 15px;
+    border-width: 0;
+    border-radius: 10px;
+    background-color: #0b69ff;
+    color: #ffffff;
+    margin-top:15px;
+    cursor: pointer;
+}

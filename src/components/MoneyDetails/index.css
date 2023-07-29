@@ -1,0 +1,87 @@
+/* Write your CSS here */
+/* Write your CSS here */
+.money-items{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding-left: 0;
+    margin-top:30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    border-width: 1px;
+    border-style: solid;
+    margin-bottom: 20px;
+    justify-content: flex-start;
+}
+@media(min-width: 576px){
+    .money-items{
+        flex-direction: row;
+    }
+    .item{
+        margin-right: 20px;
+        width: 90%;
+        max-width: 450px;
+        height: 150px;
+    }
+}
+
+
+.money-item-1{
+    background-color: #ecfccb;
+    border-color: #84cc16;
+    height: 130px;
+}
+.money-item-2{
+    background-color: #cffafe;
+    border-color:  #06b6d4;
+    height: 130px;
+}
+.money-item-3{
+    background-color:  #ede9fe;
+    border-color: #7c3aed;
+    height: 130px;
+}
+.title{
+    color:  #7e858e;
+    font-family: "Roboto";
+    font-size: 16px;
+    margin-top: 20px;
+}
+.rupees-text{
+    color: #475569;
+    font-family: "Roboto";
+    font-size: 20px;
+    margin-top: 2px;
+}
+.money-item-img{
+    height: 70px;
+    width: 70px;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+@media (min-width: 600px) and (max-width: 810px){
+    .item{
+        width: 180px;
+        padding: 10px;
+    }
+    .money-item-img{
+        height: 50px;
+        width: 50px;
+        margin-right: 10px;
+    }
+    .title{
+        padding-right: 10px;
+
+    }
+    .rupees-text{
+        padding-right: 10px;
+    }
+}
+

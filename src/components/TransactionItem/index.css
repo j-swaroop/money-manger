@@ -1,0 +1,29 @@
+/* Write your CSS here */
+li{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 45px;
+    border-color: #7e858e;
+    color: #475569;
+    border-width: 1px;
+    border-style: solid;
+    list-style-type: none;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    margin-top: 0;
+    padding-top: 3px;
+}
+button{
+    border-width: 0;
+    background-color: transparent;
+    margin-right: 10px;
+    cursor: pointer;
+}
+img{
+    height: 23px;
+    width: 23px;
+}
